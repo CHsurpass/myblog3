@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginController</servlet-name>
+    <servlet-class>tzc.blog.controller.AdminLoginController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminCategoryEditController</servlet-name>
+    <servlet-class>tzc.blog.controller.AdminCategoryEditController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminHomeController</servlet-name>
+    <servlet-class>tzc.blog.controller.AdminHomeController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminCategoryController</servlet-name>
+    <servlet-class>tzc.blog.controller.AdminCategoryController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminCategoryDeleteController</servlet-name>
+    <servlet-class>tzc.blog.controller.AdminCategoryDeleteController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminPostController</servlet-name>
+    <servlet-class>tzc.blog.controller.AdminPostController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminPostDeleteController</servlet-name>
+    <servlet-class>tzc.blog.controller.AdminPostDeleteController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminPostViewController</servlet-name>
+    <servlet-class>tzc.blog.controller.AdminPostViewController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminPostEditController</servlet-name>
+    <servlet-class>tzc.blog.controller.AdminPostEditController</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminLoginController</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCategoryEditController</servlet-name>
+    <url-pattern>/admin/CategoryEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminHomeController</servlet-name>
+    <url-pattern>/admin/Home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCategoryController</servlet-name>
+    <url-pattern>/admin/Category</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCategoryDeleteController</servlet-name>
+    <url-pattern>/admin/CategoryDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminPostController</servlet-name>
+    <url-pattern>/admin/Post</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminPostDeleteController</servlet-name>
+    <url-pattern>/admin/PostDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminPostViewController</servlet-name>
+    <url-pattern>/admin/PostView</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminPostEditController</servlet-name>
+    <url-pattern>/admin/PostEdit</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
